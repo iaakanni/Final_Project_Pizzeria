@@ -173,22 +173,36 @@ these is as much a part of the DBA/data-engineering skill set as the design itse
 See `analytics_queries.sql` for the full SQL.
 
 "Setting up version control and pushing to a remote repository"
-﻿# Final_Project_Pizzeria
-initgit
-add
-README.mdgit
-commit
--m
-first commit
-git
-branch
--M
-maingit
-remote
-add
-origin
-https://github.com/iaakanni/Final_Project_Pizzeria.gitgit
-push
--u
-origin
-master
+﻿## Version Control Setup
+
+This project uses Git for version control, with the repository hosted on GitHub.
+
+1. Initialize a local Git repository:
+```bash
+   git init
+```
+
+2. Stage the project files:
+```bash
+   git add README.md
+```
+
+3. Commit the initial snapshot:
+```bash
+   git commit -m "first commit"
+```
+
+4. Rename the default branch to `main`:
+```bash
+   git branch -M main
+```
+
+5. Link the local repository to the remote GitHub repository:
+```bash
+   git remote add origin https://github.com/iaakanni/Final_Project_Pizzeria.git
+```
+
+6. Push the initial commit to GitHub:
+```bash
+   git push -u origin main
+```
