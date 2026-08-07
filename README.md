@@ -171,3 +171,24 @@ these is as much a part of the DBA/data-engineering skill set as the design itse
 5. Busiest hours of the day for orders
 
 See `analytics_queries.sql` for the full SQL.
+
+"Setting up version control and pushing to a remote repository"
+﻿# Final_Project_Pizzeria
+initgit
+add
+README.mdgit
+commit
+-m
+first commit
+git
+branch
+-M
+maingit
+remote
+add
+origin
+https://github.com/iaakanni/Final_Project_Pizzeria.gitgit
+push
+-u
+origin
+master
